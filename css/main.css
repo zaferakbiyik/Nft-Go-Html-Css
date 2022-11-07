@@ -1,0 +1,351 @@
+@import url(font.css);
+
+
+body {
+    background-color: rgba(20, 18, 26, 1);
+    position: absolute;
+}
+
+nav {
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a {
+    font-family: "TTTravels-Medium";
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 61px;
+}
+
+#logo {
+    width: 200px;
+    height: 100%;
+    margin: 0 149px;
+}
+
+.fon {
+    position: absolute;
+    width: 917px;
+    height: 548.53px;
+    left: -164px;
+    top: -98px;
+    z-index: -1;
+    background: radial-gradient(rgba(20, 18, 26, 0));
+}
+
+.b1 {
+    position: absolute;
+    z-index: -1;
+    width: 917px;
+    height: 548.53px;
+    left: -164px;
+    top: -98px;
+    opacity: 0.2;
+    background: url(/img/Fon.png);
+}
+
+
+h1 {
+    font-family: 'TTTravels-ExtraBold';
+
+}
+
+h2 {
+    font-size: 128px;
+    font-family: "TTTravels-DemiBoldItalic";
+    font-weight: 600;
+    line-height: 89%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+
+}
+
+div {
+    padding: 10px;
+}
+
+strong {
+
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    height: 50px;
+}
+
+/* #abs1 {
+    z-index: 5;
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    top: 10px;
+    left: 10px;
+    border: 1px dashed #900;
+    background-color: #fdd;
+} */
+
+#rel1 {
+    display: flex;
+    font-family: 'TTTravels-ExtraBold';
+    font-size: 128px;
+    font-weight: 800;
+    height: 128px;
+    color: #FFFFFF;
+    z-index: 3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    /* border: 1px dashed #696;
+    background-color: #cfc; */
+    margin: 0px 50px 0px 50px;
+}
+
+#rel2 {
+    display: flex;
+    align-items: center;
+    font-size: 128px;
+    font-family: "TTTravels-DemiBoldItalic";
+    font-style: italic;
+    font-weight: 600;
+    line-height: 89%;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    z-index: 2;
+    height: 100px;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    /* border: 1px dashed #696;
+    background-color: #cfc; */
+    margin: 0px 50px 0px 50px;
+}
+
+
+.rel22 {
+    margin-left: 5%;
+}
+
+
+#abs2 {
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    right: 100px;
+    /* border: 1px dashed #900;
+    background-color: #fdd; */
+}
+
+#sta1 {
+    z-index: 8;
+    height: 70px;
+    /* border: 1px dashed #996;
+    background-color: #ffc; */
+    margin: 0px 50px 0px 50px;
+}
+
+
+
+
+.box {
+
+
+    position: absolute;
+    top: 50%;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 50%;
+    /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%);
+}
+
+.resim {
+
+
+
+    width: 320px;
+    height: 420px;
+    content: url(../img/kot.png);
+    z-index: 8;
+
+    /* for demo purpose  */
+}
+
+.gradient {
+
+
+    width: 181.36px;
+    height: 328.81px;
+    margin-left: 130px;
+    margin-bottom: 40px;
+    background: linear-gradient(262.38deg, #C2DD20 11.9%, rgba(20, 228, 241, 0.93) 92.9%);
+    border-radius: 121.5px;
+    transform: rotate(31.36deg);
+
+}
+
+.part1 {
+    justify-self: end;
+
+}
+
+
+.part1 button {
+    margin-left: 24px;
+    font-family: "TTTravels-Medium";
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 201px;
+    height: 72px;
+}
+
+.part2 {
+
+    margin: 0 0 0 30px;
+}
+
+.part2 span {
+
+    font-family: "TTTravels-Medium";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    letter-spacing: -0.025em;
+    color: #22ECBC;
+}
+
+
+
+
+.zaferr {
+    display: grid;
+    width: 100%;
+    height: 346px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: end;
+}
+
+.fart {
+    margin-top: 100px;
+    position: relative;
+    justify-items: end;
+    width: 100%;
+    height: 100%;
+
+}
+
+.fart2 {
+
+
+    height: 234px;
+    width: 367px;
+    background: linear-gradient(262.38deg, #F5EC0A 11.9%, rgba(20, 228, 241, 0.93) 92.9%);
+    border-radius: 50px;
+}
+
+.dz::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    /* adjust accordingly: */
+    height: 300px;
+    /* background-color: rgba(0, 0, 0, 0.25); */
+    background-image: url("../img/r.png");
+    background-size: cover;
+    content: "";
+}
+
+.dzz::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    /* adjust accordingly: */
+    height: 300px;
+    /* background-color: rgba(0, 0, 0, 0.25); */
+    background-image: url("../img/resim3.png");
+    background-size: cover;
+    content: "";
+}
+
+.dzz::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    /* adjust accordingly: */
+    height: 300px;
+    /* background-color: rgba(0, 0, 0, 0.25); */
+    background-image: url("../img/resim3.png");
+    background-size: cover;
+    content: "";
+}
+
+.dzzz::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    /* adjust accordingly: */
+    height: 300px;
+    /* background-color: rgba(0, 0, 0, 0.25); */
+    background-image: url("../img/resim4.png");
+    background-size: cover;
+    content: "";
+}
+
+.ol {
+    position: static;
+    margin-top: 100px;
+    object-fit: cover;
+
+    background-image: url("../img/b2.png");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+}
+
+.dee {
+    position: absolute;
+
+    background-image: url("../img/b2.png");
+
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "TTTravels-Medium";
+    src: url("../fonts/TTTravels-Medium.ttf");
+}
+
+@font-face {
+    font-family: "TTTravels-ExtraBold";
+    src: url("../fonts/TTTravels-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "TTTravels-DemiBoldItalic";
+    font-style: italic;
+    src: url("../fonts/TTTravels-DemiBoldItalic.ttf");
+}
